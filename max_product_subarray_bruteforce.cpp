@@ -16,7 +16,7 @@ void maxsubpro(int arr[],int n)
         }
         cout<<endl;
     }
-    cout<<"max product"<<maxpro;
+    cout<<"max product : "<<maxpro;
     
 }
 

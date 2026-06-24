@@ -7,6 +7,7 @@ int fact(int n)
         fact*=i;
     }
     return fact;
+
 }
 int main ()
 {
