@@ -4,7 +4,7 @@
 using namespace std;
 void IsPalindrome(char word[],int n)
 { int st=0,end=n-1;
-    while(st<end)
+   while(st<end)
     {
         if(word[st]!=word[end])
         {  cout<<false;;
