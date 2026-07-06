@@ -4,7 +4,7 @@
 using namespace std;
 int main()
 {
-    string str1="anagram",str2="nagarama";
+    string str1="anagram",str2="nagaram";
     sort(str1.begin(),str1.end());
    sort(str2.begin(),str2.end());
    
