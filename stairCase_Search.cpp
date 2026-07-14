@@ -20,6 +20,6 @@ int main()
 {
     int matrix[][4]={{10,20,30,40},{15,25,35,45},{27,29,37,48},{32,33,39,50}};
     int n=4,m=4,key=33;
-    SStairSearch(matrix,n,m,key);
+    StairSearch(matrix,n,m,key);
     return 0;
 }

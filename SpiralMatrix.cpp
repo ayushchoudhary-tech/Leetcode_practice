@@ -12,13 +12,19 @@ void PrintSpiralMatix(int matrix[][4], int m , int n)
             cout<<matrix[i][ecol];
         }cout<<" ";
         for(int j=ecol-1;j>=scol;j--){
+            if(srow==erow){
+                break;  
+            }
            cout<<matrix[erow][j];
         }cout<<" ";
         for(int i=erow-1;i>=srow+1;i--)
-        {
+        { if(scol==ecol )
+            {
+                break;
+            }
             cout<<matrix[i][scol];
         }cout<<" ";
-
+  
     srow++;
     scol++;
     erow--;

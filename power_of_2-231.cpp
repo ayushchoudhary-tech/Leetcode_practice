@@ -1,0 +1,17 @@
+//power of 2-->231
+class Solution {
+public:
+    bool isPowerOfTwo(int n) {
+        if (n<1)
+        {
+            return false;
+        }
+        if((n & (n-1))==0)
+        {
+            return true;
+        }else {
+            return false;
+        }
+    
+    }
+};

@@ -7,8 +7,8 @@ void IsPalindrome(char word[],int n)
    while(st<end)
     {
         if(word[st]!=word[end])
-        {  cout<<false;;
-            break;
+        {  cout<<false;
+            break; 
 
         }else{
             cout<<true;break;

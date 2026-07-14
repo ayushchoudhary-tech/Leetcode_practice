@@ -27,7 +27,7 @@ class Dog:public Mamal{
  public:
  void tailwag()
  {
-    cout<<" a dog waging its tail\n";
+    cout<<"a dog waging its tail\n";
  }
 };
 
